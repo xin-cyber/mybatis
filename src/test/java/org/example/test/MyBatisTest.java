@@ -47,7 +47,7 @@ public class MyBatisTest {
     @Test
     public void testSelectById() throws IOException {
         //接收参数
-        int id = 1;
+        int id = 2;
 
         //1. 获取SqlSessionFactory
         String resource = "mybatis-config.xml";

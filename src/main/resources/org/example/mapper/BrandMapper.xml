@@ -84,13 +84,7 @@
      </select>
      -->
     <select id="selectById" resultMap="brandResultMap">
-        select *
-        from tb_brand
-        where id
-         <![CDATA[
-                  <
-         ]]>
-         #{id};
+        select * from tb_brand where id <![CDATA[<]]> #{id};
 
     </select>
 
